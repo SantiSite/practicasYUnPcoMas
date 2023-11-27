@@ -8,7 +8,7 @@ Ejemplo:
 	- output: dcba
 */
 
-func ReverseString(s string) string {
+func ReverseStringBasic(s string) string {
 	l := len(s)
 	r := []rune(s)
 	rReverse := make([]rune, l)
